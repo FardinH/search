@@ -41,7 +41,7 @@ function requestApi(method, url)
             let imageItem = item.poster_path;
             let overviewItem = item.overview;
             let rangeItem = item.vote_average;
-            inner += inner + 
+            inner +=  
             `
                 <div class="card mb-3" style="max-width: 100%;">
                     <div class="row no-gutters">
